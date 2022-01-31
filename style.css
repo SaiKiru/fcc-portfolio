@@ -114,6 +114,32 @@ body {
     text-align: center;
 }
 
+/* socials section START */
+
+#socials-group {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin: auto;
+    padding: 32px 0px;
+}
+
+.social-link {
+    text-decoration: none;
+}
+
+.social-icons {
+    color: var(--secondary-color);
+    display: block;
+    font-size: 64px;
+}
+
+.social-icons:hover {
+    color: rgb(101, 138, 32);
+}
+
+/* socials section END */
+
 footer {
     background-color: var(--tertiary-color);
     padding: 32px 16px;
