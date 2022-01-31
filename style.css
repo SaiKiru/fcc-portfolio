@@ -9,6 +9,7 @@
 }
 
 body {
+    color: white;
     background-color: var(--main-color);
 }
 
@@ -36,6 +37,11 @@ body {
     padding: 16px;
     text-decoration: none;
     color: white;
+}
+
+section {
+    margin-top: 16px;
+    margin-bottom: 32px;
 }
 
 .section-header {
@@ -140,6 +146,8 @@ body {
 
 /* socials section END */
 
+/* footer section START */
+
 footer {
     background-color: var(--tertiary-color);
     padding: 32px 16px;
@@ -147,5 +155,6 @@ footer {
 
 #footer-notes {
     text-align: center;
-    color: white;
 }
+
+/* footer section END */
