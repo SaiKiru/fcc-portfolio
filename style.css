@@ -1,7 +1,7 @@
 :root {
-    --main-color: rgb(49, 42, 39);
-    --secondary-color: hsl(78, 30%, 22%);
-    --tertiary-color: hsl(96, 8%, 12%);
+    --main-color: rgb(49, 46, 43);
+    --secondary-color: hsl(78, 51%, 23%);
+    --tertiary-color: hsl(100, 23%, 10%);
 }
 
 * {
