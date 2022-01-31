@@ -54,6 +54,12 @@ body {
     background-color: var(--highlight-color);
 }
 
+@media screen and (max-width: 420px) {
+    #navbar {
+        display: none;
+    }
+}
+
 /* navbar END */
 
 section {
@@ -101,6 +107,22 @@ section {
 #welcome-sub-greeting {
     font-size: 24px;
     color: #aaa;
+}
+
+@media screen and (max-width: 520px) {
+    #welcome-section {
+        padding: 0px 32px;
+        align-items:initial;
+        text-align: left;
+    }
+
+    #welcome-main-greeting {
+        font-size: 52px;
+    }
+
+    #welcome-sub-greeting {
+        font-size: 18px;
+    }
 }
 
 /* welcome section END */
