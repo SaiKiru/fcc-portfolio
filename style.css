@@ -22,6 +22,8 @@ body {
     background-color: var(--main-color);
 }
 
+/* navbar START */
+
 #navbar {
     position: fixed;
     top: 0;
@@ -52,6 +54,8 @@ body {
     background-color: var(--highlight-color);
 }
 
+/* navbar END */
+
 section {
     margin-top: 16px;
     margin-bottom: 32px;
@@ -71,6 +75,8 @@ section {
     text-decoration-color: var(--highlight-color);
     text-decoration-thickness: 8px;
 }
+
+/* welcome section START */
 
 #welcome-section {
     display: flex;
@@ -95,6 +101,10 @@ section {
     font-size: 24px;
     color: #aaa;
 }
+
+/* welcome section END */
+
+/* project section START */
 
 #project-grid {
     display: flex;
@@ -147,6 +157,8 @@ section {
     font-size: 18px;
     text-align: center;
 }
+
+/* project section END */
 
 /* socials section START */
 
