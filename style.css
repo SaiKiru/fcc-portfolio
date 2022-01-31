@@ -61,6 +61,13 @@ section {
     text-align: center;
 }
 
+.text-em {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: var(--highlight-color);
+    text-decoration-thickness: 8px;
+}
+
 #welcome-section {
     display: flex;
     flex-direction: column;
@@ -68,14 +75,20 @@ section {
     height: 100vh;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    background:
+        linear-gradient(rgba(26, 23, 22, 0.8), rgba(0, 0, 0, 0.8)),
+        center url("./assets/welcome-bg.jpg");
 }
 
 #welcome-main-greeting {
-
+    font-size: 64px;
+    margin-bottom: 0.25em;
 }
 
 #welcome-sub-greeting {
-
+    font-size: 24px;
+    color: #aaa;
 }
 
 #project-grid {
