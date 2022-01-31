@@ -1,7 +1,13 @@
 :root {
-    --main-color: rgb(49, 46, 43);
-    --secondary-color: hsl(78, 51%, 23%);
-    --tertiary-color: hsl(100, 23%, 10%);
+    --main-color: rgb(31, 46, 48);
+    --secondary-color: hsl(150, 69%, 27%);
+    --tertiary-color: hsl(202, 22%, 10%);
+    --highlight-color: rgb(54, 150, 91);
+}
+
+::selection {
+    color: white;
+    background-color: var(--highlight-color);
 }
 
 * {
@@ -37,6 +43,10 @@ body {
     padding: 16px;
     text-decoration: none;
     color: white;
+}
+
+#navbar .nav-link:hover li {
+    background-color: var(--highlight-color);
 }
 
 section {
@@ -92,11 +102,11 @@ section {
 }
 
 .project-tile a:hover {
-    background-color: rgb(75, 100, 29);
+    background-color: var(--highlight-color);
 }
 
 .project-tile a:hover .project-title {
-    background-color: rgb(75, 100, 29);
+    background-color: var(--highlight-color);
 }
 
 .project-tile .project-tile-img {
@@ -141,7 +151,7 @@ section {
 }
 
 .social-icons:hover {
-    color: rgb(101, 138, 32);
+    color: var(--highlight-color);
 }
 
 /* socials section END */
